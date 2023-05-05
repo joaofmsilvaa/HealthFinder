@@ -1,0 +1,74 @@
+.navbar-brand {
+    width: 40%;
+    height: 30%;
+  }
+  
+  .doctor {
+    width: 80%;
+  }
+  
+  .doctor-div {
+    text-align: right;
+  }
+  
+  .main-text {
+    font-size: 45px;
+    width: 450px;
+    margin-left: 15%;
+    text-align: left;
+  }
+
+  .description{
+    font-size: 20px;
+    margin-top: 5%;;
+    margin-left: 15%;
+    text-align: left;
+  }
+
+  .searchBTN-div{
+    margin-top: 5%;;
+    margin-left: 15%;
+    text-align: left;
+  }
+
+  .paragraph-div {
+    padding-top: 50px;
+  }
+
+  @media screen and (max-width: 900px) {
+    .navbar-brand {
+      width: 50%;
+      height: 40%;
+    }
+
+    .main-text{
+        font-size: 35px;
+        width: 350px;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .main-text {
+      padding: 0;
+      text-align: center;
+    }
+  }
+
+
+  @media screen and (max-width: 700px) {
+    .navbar-brand {
+      width: 50%;
+      height: 40%;
+    }
+
+
+  }
+
+  
+  @media screen and (max-width: 600px) {
+    .navbar-brand {
+      width: 60%;
+      height: 50%;
+    }
+
+  }
