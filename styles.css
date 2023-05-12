@@ -1,8 +1,16 @@
+.navbar{
+  background-color: rgba(255, 255, 255, 0.516);
+}
+
 .navbar-brand {
     width: 40%;
     height: 30%;
   }
-  
+
+  .main-content-header{
+    margin-top: 10%;
+  }
+
   .doctor {
     width: 80%;
   }
@@ -12,7 +20,7 @@
   }
   
   .main-text {
-    font-size: 45px;
+    font-size: 6vw;
     width: 450px;
     margin-left: 15%;
     text-align: left;
@@ -21,15 +29,32 @@
 
   .description{
     font-size: 20px;
-    margin-top: 5%;;
     margin-left: 15%;
+    width: 450px;
+    margin-top: 5%;
     text-align: left;
   }
 
   .searchBTN-div{
     margin-top: 5%;;
     margin-left: 15%;
+    width: 450px;
     text-align: left;
+  }
+
+  .btn{
+    background-color: #3763a6;
+    color: whitesmoke;
+    width: 250px;
+    height: 60px;
+    font-size: 25px;
+    transition: 0.35s;
+  }
+
+  .btn:hover{
+    background-color:#3d75c9;
+    color: whitesmoke;
+    transition: 0.35s;
   }
 
   .paragraph-div {
@@ -40,50 +65,45 @@
     text-align: center;
   }
 
-  @media screen and (max-width: 900px) {
+  .recomendations-logo{
+    width: 50px;
+  }
+
+  @media screen and (max-width:991px){
+
+    .main-content-header{
+      margin-top: 14%;
+    }
+
+    .doctor-div{
+      display: none;
+    }
+
     .navbar-brand {
-      width: 50%;
-      height: 40%;
+      width: 60%;
+      height: 50%;
     }
 
     .main-text{
         font-size: 35px;
         width: 350px;
-    }
-  }
-  
-  @media (max-width: 767.98px) {
-    .main-text {
-      background-color: rebeccapurple;
-      text-align: center;
+        text-align: center;
     }
     .description{
-      background-color: rebeccapurple;
+      width: 350px;
       text-align: center;
     }
-  
     .searchBTN-div{
-      background-color: rebeccapurple;
+      width: 350px;
       text-align: center;
     }
-
   }
 
 
-  @media screen and (max-width: 700px) {
-    .navbar-brand {
-      width: 50%;
-      height: 40%;
-    }
-
-
-  }
-
-  
   @media screen and (max-width: 600px) {
     .navbar-brand {
-      width: 60%;
-      height: 50%;
+      width: 70%;
+      height: 60%;
     }
 
   }
