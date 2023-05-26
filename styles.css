@@ -1,127 +1,132 @@
-.navbar{
+.navbar {
   background-color: rgba(55, 99, 166, 0.9);
 }
 
 .navbar-brand {
-    width: 40%;
-    height: 30%;
+  width: 40%;
+  height: 30%;
+}
+
+.main-content-header {
+  margin-top: 10%;
+}
+
+.doctor {
+  width: 80%;
+}
+
+.doctor-div {
+  text-align: center;
+}
+
+.main-text {
+  font-size: 6vw;
+  width: 450px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.description {
+  font-size: 20px;
+  width: 450px;
+  margin: 5% auto;
+  text-align: left;
+}
+
+.searchBTN-div {
+  margin: 5% auto;
+  width: 450px;
+  text-align: left;
+}
+
+.btn {
+  background-color: #3763a6;
+  color: whitesmoke;
+  width: 250px;
+  height: 60px;
+  font-size: 25px;
+  transition: 0.35s;
+}
+
+.btn:hover {
+  background-color: #3d75c9;
+  color: whitesmoke;
+  transition: 0.35s;
+}
+
+.paragraph-div {
+  padding-top: 50px;
+}
+
+.main-sub-div {
+  text-align: center;
+}
+
+.recomendations-logo {
+  width: 50px;
+}
+
+.card {
+  background-color: rgb(198, 218, 250);
+  margin-bottom: 20px;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.estig-div {
+  scale: 0.75;
+}
+
+.sobreProjeto {
+  background-color: rgb(198, 218, 250);
+  border-radius: 1%;
+}
+
+@media screen and (max-width: 991px) {
+  .main-content-header {
+    margin-top: 14%;
   }
 
-  .main-content-header{
-    margin-top: 10%;
-  }
-
-  .doctor {
-    width: 80%;
-  }
-  
   .doctor-div {
-    text-align: center;
+    display: none;
   }
-  
+
+  .navbar-brand {
+    width: 60%;
+    height: 50%;
+  }
+
   .main-text {
-    font-size: 6vw;
-    width: 450px;
-    margin-left: 15%;
-    text-align: left;
-
-  }
-
-  .description{
-    font-size: 20px;
-    margin-left: 15%;
-    width: 450px;
-    margin-top: 5%;
-    text-align: left;
-  }
-
-  .searchBTN-div{
-    margin-top: 5%;;
-    margin-left: 15%;
-    width: 450px;
-    text-align: left;
-  }
-
-  .btn{
-    background-color: #3763a6;
-    color: whitesmoke;
-    width: 250px;
-    height: 60px;
-    font-size: 25px;
-    transition: 0.35s;
-  }
-
-  .btn:hover{
-    background-color:#3d75c9;
-    color: whitesmoke;
-    transition: 0.35s;
-  }
-
-  .paragraph-div {
-    padding-top: 50px;
-  }
-
-  .main-sub-div{
+    font-size: 35px;
+    width: 350px;
+    margin: 0 auto;
     text-align: center;
   }
 
-  .recomendations-logo{
-    width: 50px;
-  }
-
-  .card {
-    background-color: rgb(198, 218, 250);
-    margin-bottom: 20px;
-  }
-
-  .card-text{
+  .description {
+    width: 350px;
+    margin: 5% auto;
     text-align: center;
   }
 
-  .estig-div{
-    scale: 0.75;
+  .searchBTN-div {
+    width: 350px;
+    margin: 5% auto;
+    text-align: center;
   }
+}
 
-  .sobreProjeto{
-    background-color: rgb(198, 218, 250);
-    border-radius: 1%;
+@media screen and (max-width: 600px) {
+  .navbar-brand {
+    width: 70%;
+    height: 60%;
   }
+}
 
-  @media screen and (max-width:991px){
-
-    .main-content-header{
-      margin-top: 14%;
-    }
-
-    .doctor-div{
-      display: none;
-    }
-
-    .navbar-brand {
-      width: 60%;
-      height: 50%;
-    }
-
-    .main-text{
-        font-size: 35px;
-        width: 350px;
-        text-align: center;
-    }
-    .description{
-      width: 350px;
-      text-align: center;
-    }
-    .searchBTN-div{
-      width: 350px;
-      text-align: center;
-    }
+@media screen and (max-width: 525px) {
+  .recomendations{
+    margin: 15%
   }
-
-
-  @media screen and (max-width: 600px) {
-    .navbar-brand {
-      width: 70%;
-      height: 60%;
-    }
-
-  }
+}
