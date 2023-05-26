@@ -79,8 +79,16 @@
   margin-top: 10%;
 }
 
+.main-project-section {
+  margin-top: 10%;
+}
+
 .estig-div {
   scale: 0.75;
+}
+
+.estig {
+  width: 80%;
 }
 
 .sobreProjeto {
@@ -88,8 +96,28 @@
   border-radius: 1%;
 }
 
+.estig-div {
+  text-align: center;
+}
 
+.main-api-section {
+  margin-top: 10%;
+}
 
+.sns {
+  width: 70%;
+}
+
+.sns-div {
+  text-align: center;
+}
+
+.footer{
+  color: white;
+  background-color: rgba(55, 99, 166, 0.9);
+  width: 100%;
+  text-align: center;
+}
 
 @media screen and (max-width: 991px) {
   .main-content-header {
