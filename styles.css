@@ -75,6 +75,10 @@
   text-align: center;
 }
 
+.x {
+  margin-top: 10%;
+}
+
 .estig-div {
   scale: 0.75;
 }
@@ -83,6 +87,9 @@
   background-color: rgb(198, 218, 250);
   border-radius: 1%;
 }
+
+
+
 
 @media screen and (max-width: 991px) {
   .main-content-header {
