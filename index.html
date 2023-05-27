@@ -17,56 +17,52 @@
     <div
       class="container-xl border d-flex flex-column align-items-center justify-content-center"
     >
-      <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top">
-  <div class="container-xl">
-    <a class="navbar-brand" href="#">
-      <img
-        src="images/logowhite.png"
-        alt="company logo"
-        width="60%"
-        class="d-inline-block align-text-top"
-      />
-    </a>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-xl">
+          <a class="navbar-brand" href="#">
+            <img
+              src="images/logowhite.png"
+              alt="company logo"
+              width="60%"
+              class="d-inline-block align-text-top"
+            />
+          </a>
 
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div
-      class="collapse navbar-collapse justify-content-end"
-      id="navbarNav"
-    >
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"
-            >Inicio</a
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Recomendações</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Sobre nós</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">API</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<!-- Navbar -->
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto text-end">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#inicio"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#recomendations">Recomendações</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutProject">Sobre nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#api">API</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
       <!-- Main content -->
-      <header class="main-content-header pb-5 overflow-hidden">
+
+      <header class="main-content-header pb-5 overflow-hidden" id="inicio">
         <div class="container-xl">
           <div class="row py-5 justify-content-center">
             <div class="row">
@@ -93,7 +89,7 @@
       <!-- Main content -->
 
       <!-- Secção de recomendações -->
-      <section class="recomendations" style="margin-top: 15%">
+      <section class="recomendations" style="margin-top: 15%" id="recomendations">
         <h2 class="text-center m-5">Sobre o projeto</h2>
         <div class="row text-center">
           <div class="col-sm-4">
@@ -166,7 +162,7 @@
 
       <!-- Secção do projeto -->
 
-      <section class="main-project-section pb-5 overflow-hidden">
+      <section class="main-project-section pb-5 overflow-hidden" id="aboutProject">
         <div class="container-xl">
           <div class="row py-5 justify-content-center">
             <div class="row">
@@ -191,7 +187,7 @@
 
       <!-- Secção da API -->
 
-      <section class="main-api-section pb-5 overflow-hidden">
+      <section class="main-api-section pb-5 overflow-hidden" id="api">
         <div class="api-cont container-xl">
           <div class="row py-5 justify-content-center">
             <div class="row">
@@ -252,6 +248,9 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+
     <script src="index.js"></script>
   </body>
 </html>
