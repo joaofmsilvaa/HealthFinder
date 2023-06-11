@@ -1,0 +1,45 @@
+{
+    "hospitais":[
+        {
+            "nome": "Hospital José Joaquim Fernandes",
+            "localizacao": "beja"
+        },
+        {
+            "nome": "Hospital de Nossa Senhora da Piedade",
+            "localizacao": "beja"
+        },
+        {
+            "nome": "Hospital santiago maior",
+            "localizacao": "beja"
+        },
+        
+
+
+        {
+            "nome": "Hospital da Misericórdia de Évora",
+            "localizacao": "Évora"
+        },
+        {
+            "nome": "Hospital do Espírito Santo de Évora",
+            "localizacao": "Évora"
+        },
+        {
+            "nome": "Hospital Espírito Santo E.p.e",
+            "localizacao": "Évora"
+        },
+
+
+        {
+            "nome": "Hospital de São José",
+            "localizacao": "Lisboa"
+        },
+        {
+            "nome": "Hospital de Santa Maria",
+            "localizacao": "Lisboa"
+        },
+        {
+            "nome": "Hospital Santo António dos Capuchos",
+            "localizacao": "Lisboa"
+        }
+    ]
+}

@@ -48,9 +48,30 @@
   transition: 0.35s;
 }
 
+.btnLink{
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+btnLink:visited {
+  color: white;
+}
+
+/* mouse over link */
+btnLink:hover {
+  color: white;
+}
+
+/* selected link */
+btnLink:active {
+  color: white;
+}
+
 .btn:hover {
-  background-color: #3d75c9;
-  color: whitesmoke;
+  background-color: white;
+  color: #3763a6;
+  border-color: #3763a6;
   transition: 0.35s;
 }
 

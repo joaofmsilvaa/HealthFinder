@@ -13,53 +13,36 @@
     <link rel="stylesheet" href="styles.css" />
     <title>HealthFinder</title>
   </head>
-  <body>
-    <div
-      class="container-xl border d-flex flex-column align-items-center justify-content-center"
-    >
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container-xl">
-          <a class="navbar-brand" href="#">
-            <img
-              src="images/logowhite.png"
-              alt="company logo"
-              width="60%"
-              class="d-inline-block align-text-top"
-            />
-          </a>
-
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto text-end">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#inicio"
-                  >Inicio</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#recomendations">Recomendações</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#aboutProject">Sobre nós</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#api">API</a>
-              </li>
-            </ul>
-          </div>
+  <body data-spy="scroll" data-target="#navbarNav" data-offset="100">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-xl">
+        <a class="navbar-brand" href="#">
+          <img src="images/logowhite.png" alt="company logo" width="60%" class="d-inline-block align-text-top">
+        </a>
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto text-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#recomendations">Recomendações</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutProject">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#api">API</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-
+      </div>
+    </nav>
       <!-- Main content -->
 
       <header class="main-content-header pb-5 overflow-hidden" id="inicio">
@@ -73,7 +56,9 @@
                   <strong>farmácias</strong> por Portugal inteiro
                 </h1>
                 <p class="my-4 lead fs-5">Comece agora a sua procura!</p>
-                <button type="button" class="btn">PESQUISAR</button>
+                <button type="button" class="btn">
+                  <a href="searchIndex.html" class="btnLink"> PESQUISAR </a>
+                </button>
               </div>
               <div class="col-lg-6 doctor-div">
                 <img
@@ -89,7 +74,11 @@
       <!-- Main content -->
 
       <!-- Secção de recomendações -->
-      <section class="recomendations" style="margin-top: 15%" id="recomendations">
+      <section
+        class="recomendations"
+        style="margin-top: 15%"
+        id="recomendations"
+      >
         <h2 class="text-center m-5">Sobre o projeto</h2>
         <div class="row text-center">
           <div class="col-sm-4">
@@ -162,7 +151,10 @@
 
       <!-- Secção do projeto -->
 
-      <section class="main-project-section pb-5 overflow-hidden" id="aboutProject">
+      <section
+        class="main-project-section pb-5 overflow-hidden"
+        id="aboutProject"
+      >
         <div class="container-xl">
           <div class="row py-5 justify-content-center">
             <div class="row">
@@ -216,7 +208,7 @@
       <footer>
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
           <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-light"
+            <a href="https://github.com/JOao7640" class="nav-link px-2 text-light"
               >© 2023 Developed by João Silva</a
             >
           </li>
@@ -233,6 +225,7 @@
     </section>
 
     <!-- Footer -->
+
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
