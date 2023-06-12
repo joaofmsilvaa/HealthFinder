@@ -3,12 +3,16 @@
         {
             "nome": "Hospital José Joaquim Fernandes",
             "localizacao": "beja",
-            "image": "https://www.vozdaplanicie.pt/images/202112271141083520.jpg"
+            "image": "https://www.vozdaplanicie.pt/images/202112271141083520.jpg",
+            "horario": "24 horas",
+            "telefone": "284 310 200"
         },
         {
             "nome": "Hospital de Nossa Senhora da Piedade",
             "localizacao": "beja",
-            "image": "https://cms.infoportugal.info/media/fotos/final/Beja/BEJ199.jpg"
+            "image": "https://cms.infoportugal.info/media/fotos/final/Beja/BEJ199.jpg",
+            "horario": "",
+            "telefone": "284 324 133"
         },
 
 
@@ -20,23 +24,36 @@
         {
             "nome": "Hospital do Espírito Santo de Évora",
             "localizacao": "Évora",
-            "image": "https://www.simedicos.pt/fotos/noticias/hospital_evora_8603000155c2cdc056277a.jpg"
+            "image": "https://www.simedicos.pt/fotos/noticias/hospital_evora_8603000155c2cdc056277a.jpg",
+            "horario": "24 horas",
+            "telefone": "266 740 100"
         },
 
         {
             "nome": "Hospital de São José",
             "localizacao": "Lisboa",
-            "image": "https://cdn.sabado.pt/images/2020-04/img_640x426$2020_04_14_10_31_45_625516.jpg"
+            "image": "https://cdn.sabado.pt/images/2020-04/img_640x426$2020_04_14_10_31_45_625516.jpg",
+            "horario": "",
+            "telefone": "21 884 1000"
         },
         {
             "nome": "Hospital de Santa Maria",
             "localizacao": "Lisboa",
-            "image": "https://images.rr.sapo.pt/542527d41defaultlarge_1024.jpg"
+            "image": "https://images.rr.sapo.pt/542527d41defaultlarge_1024.jpg",
+            "horario": "09:00 - 16:30",
+            "telefone": "21 780 5000"
         },
         {
             "nome": "Hospital Santo António dos Capuchos",
             "localizacao": "Lisboa",
-            "image": "https://informacoeseservicos.lisboa.pt/fileadmin/espacos/imagens/lxi-1008-3.jpg"
+            "image": "https://informacoeseservicos.lisboa.pt/fileadmin/espacos/imagens/lxi-1008-3.jpg",
+            "horario": "",
+            "telefone": ""
+        }
+    ],
+    "farmacias":[
+        {
+
         }
     ]
 }

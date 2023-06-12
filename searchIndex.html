@@ -17,7 +17,7 @@
     >
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-xl">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="index.html">
             <img
               src="images/logowhite.png"
               alt="company logo"
@@ -39,8 +39,13 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto text-end">
               <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Página inicial</a
+                >
+              </li>
+              <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#inicio"
-                  >Inicio</a
+                  >Pesquisa</a
                 >
               </li>
             </ul>
@@ -90,8 +95,21 @@
       id="results"
     >
       <div class="card-container row justify-content-center"></div>
-    </div>
 
+      <!-- Hospital Details Section -->
+      <div class="hospital-details" id="hospitalDetails" style="display: none">
+        <img
+          src=""
+          alt="hospital image"
+          id="hospitalImage"
+          class="card-img-top"
+        />
+        <h2 id="hospitalName"></h2>
+        <p id="hospitalLocation"></p>
+        <p id="hospitalHorario"></p>
+        <p id="hospitalTelefone"></p>
+      </div>
+    </div>
     <!-- Secção de resultados -->
 
     <!-- Footer -->
