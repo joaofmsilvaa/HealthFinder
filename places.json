@@ -19,7 +19,9 @@
         {
             "nome": "Hospital da Misericórdia de Évora",
             "localizacao": "Évora",
-            "image": "https://atehp.pt/wp-content/uploads/2021/12/700-hospital-misericordia-evora.jpg"
+            "image": "https://atehp.pt/wp-content/uploads/2021/12/700-hospital-misericordia-evora.jpg",
+            "horario": "08:00 - 20:00",
+            "telefone": "266 760 630"
         },
         {
             "nome": "Hospital do Espírito Santo de Évora",
