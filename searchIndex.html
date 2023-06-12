@@ -7,10 +7,8 @@
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles2.css" />
     <title>HealthFinder</title>
   </head>
   <body>
@@ -45,15 +43,6 @@
                   >Inicio</a
                 >
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#recomendations">Recomendações</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#aboutProject">Sobre nós</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#api">API</a>
-              </li>
             </ul>
           </div>
         </div>
@@ -63,7 +52,7 @@
       <section class="main-content-header pb-5 overflow-hidden text-center">
         <div class="container">
           <h1>Iniciar pesquisa</h1>
-          <form>
+          <form id="search-form">
             <div class="mb-3">
               <label for="searchInput" class="form-label">O que procura?</label>
               <select
@@ -85,16 +74,53 @@
                 placeholder="Ex: Beja, Évora, Lisboa"
               />
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary" href="#results">
+              PESQUISAR
+            </button>
           </form>
         </div>
       </section>
     </div>
+    <!-- Secção de pesquisa -->
 
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"
-      integrity="sha384-4pM3+s68Pj5/VW4Rl6vi9WUKtmmxvv7WZ2IiTw5GXSjW/KiLJm5AqrDQSKW3rv/S"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Secção de resultados -->
+
+    <div
+      class="results container-xl border flex-column align-items-center"
+      id="results"
+    >
+      <div class="card-container row justify-content-center"></div>
+    </div>
+
+    <!-- Secção de resultados -->
+
+    <!-- Footer -->
+    <section class="footer container-fluid w-100">
+      <footer>
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a
+              href="https://github.com/JOao7640"
+              class="nav-link px-2 text-light"
+              >© 2023 Developed by João Silva</a
+            >
+          </li>
+        </ul>
+        <a class="navbar-brand" href="#">
+          <img
+            src="images/logowhite.png"
+            alt="company logo"
+            width="30%"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+      </footer>
+    </section>
+
+    <!-- Footer -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="searchScript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
