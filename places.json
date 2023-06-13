@@ -5,14 +5,16 @@
             "localizacao": "beja",
             "image": "https://www.vozdaplanicie.pt/images/202112271141083520.jpg",
             "horario": "24 horas",
-            "telefone": "284 310 200"
+            "telefone": "284 310 200",
+            "endereco": "R. Dr. Antonio Fernando Covas Lima, 7801-849 Beja"
         },
         {
             "nome": "Hospital de Nossa Senhora da Piedade",
             "localizacao": "beja",
             "image": "https://cms.infoportugal.info/media/fotos/final/Beja/BEJ199.jpg",
             "horario": "",
-            "telefone": "284 324 133"
+            "telefone": "284 324 133",
+            "endereco": "R. Dom Manuel I 20, 7800-306 Beja"
         },
 
 
@@ -21,14 +23,16 @@
             "localizacao": "Évora",
             "image": "https://atehp.pt/wp-content/uploads/2021/12/700-hospital-misericordia-evora.jpg",
             "horario": "08:00 - 20:00",
-            "telefone": "266 760 630"
+            "telefone": "266 760 630",
+            "endereco": "Av. Sanches de Miranda 30, 7006-805 Évora"
         },
         {
             "nome": "Hospital do Espírito Santo de Évora",
             "localizacao": "Évora",
             "image": "https://www.simedicos.pt/fotos/noticias/hospital_evora_8603000155c2cdc056277a.jpg",
             "horario": "24 horas",
-            "telefone": "266 740 100"
+            "telefone": "266 740 100",
+            "endereco": "Largo do Sr. da Pobreza, 7000-811 Évora"
         },
 
         {
@@ -36,26 +40,132 @@
             "localizacao": "Lisboa",
             "image": "https://cdn.sabado.pt/images/2020-04/img_640x426$2020_04_14_10_31_45_625516.jpg",
             "horario": "",
-            "telefone": "21 884 1000"
+            "telefone": "21 884 1000",
+            "endereco": "R. José António Serrano, 1150-199 Lisboa"
         },
         {
             "nome": "Hospital de Santa Maria",
             "localizacao": "Lisboa",
             "image": "https://images.rr.sapo.pt/542527d41defaultlarge_1024.jpg",
             "horario": "09:00 - 16:30",
-            "telefone": "21 780 5000"
+            "telefone": "21 780 5000",
+            "endereco": "Av. Prof. Egas Moniz MB, 1649-028 Lisboa"
         },
         {
             "nome": "Hospital Santo António dos Capuchos",
             "localizacao": "Lisboa",
             "image": "https://informacoeseservicos.lisboa.pt/fileadmin/espacos/imagens/lxi-1008-3.jpg",
             "horario": "",
-            "telefone": ""
+            "telefone": "",
+            "endereco": "Alameda de Santo António dos Capuchos, Santo António, Lisboa, Portugal"
         }
     ],
     "farmacias":[
         {
-
+            "nome": "Farmácia Santa Lúcia",
+            "localizacao": "Beja",
+            "image": "https://grupometal.com/wp-content/uploads/2021/05/Farmacia-Beja-3-768x576.jpg",
+            "horario": "08:00 - 20:00",
+            "telefone": "967 866 069",
+            "endereco": "Av. Cmte. Ramiro Correia nº12 CV 1, 7800-261 Beja"
+        },
+        {
+            "nome": "Farmácia Santos",
+            "localizacao": "Beja",
+            "image": "https://www.montepio.org/wp-content/uploads/2017/03/farmacia_rodrigues_santos.jpg",
+            "horario": "08:30 - 20:00",
+            "telefone": "284 389 331",
+            "endereco": "R. de Santo Andre Loja 1/2, 7800-296 Beja"
+        },
+        {
+            "nome": "Farmácia Reis Barata",
+            "localizacao": "Évora",
+            "image": "https://ubbo.pt/wp-content/uploads/2021/05/IMG.20230124125534-Medium.jpg",
+            "horario": "08:30 - 23:00",
+            "telefone": "266 706 482",
+            "endereco": "R. Luís Adelino Fonseca, 7005-345 Évora"
+        },
+        {
+            "nome": "Farmácia Branco SMM",
+            "localizacao": "Évora",
+            "image": "https://www.forumcovilha.pt/media/5319/screenshot_92.png",
+            "horario": "08:00 - 20:00",
+            "telefone": "266 703 267",
+            "endereco": "Av. de São Sebastião 30A, 7000-767 Évora"
+        },
+        {
+            "nome": "Farmácia João XXI",
+            "localizacao": "Lisboa",
+            "image": "images/logo.png",
+            "horario": "08:00 - 23:59",
+            "telefone": "266 706 482",
+            "endereco": "Av. João XXI 13A, 1000-298 Lisboa"
+        },
+        {
+            "nome": "Farmácia Alta de lisboa",
+            "localizacao": "Lisboa",
+            "image": "https://www.nit.pt/wp-content/uploads/2021/07/5912d6d287668278a1639faa6f75eaa4-754x394.jpg",
+            "horario": "09:00 - 21:00",
+            "telefone": "21 754 2650",
+            "endereco": "R. António Lopes Ribeiro 6A, 1750-336 Lisboa"
+        }
+    ],
+    "centros": [
+        {
+            "nome": "Centro de Saúde de Beja",
+            "localizacao": "Beja",
+            "image": "https://www.radiopax.com/wp-content/uploads/2022/07/Centro-de-sa%C3%BAde-Beja.jpg",
+            "horario": "08:00 - 20:00",
+            "telefone": "284 313 420",
+            "endereco": "R. Dom José do Patrocinio Dias, 7800-053 Beja"
+        },
+        {
+            "nome": "Unidade de Saúde Familiar Alfabeja",
+            "localizacao": "Beja",
+            "image": "https://www.radiocampanario.com/media/k2/items/cache/bc1d25f3b339bf8fabe213e82d3073ab_XL.jpg",
+            "horario": "08:00 - 22:00",
+            "telefone": "284 311 320",
+            "endereco": "R. Rainha Dom Amelia 24, 7800-491 Beja"
+        },
+        {
+            "nome": "Centro De Saúde De Salvada",
+            "localizacao": "Beja",
+            "image": "https://s2.glbimg.com/ulgYV2qYvmE3DQoBbYGjCJRN-GY=/0x0:1280x960/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/T/2/dhWs2MRSSbWTxvoIHB4Q/posto3.jpg",
+            "horario": "",
+            "telefone": "284 947 275",
+            "endereco": "R. Grande, 7800-699 Beja"
+        },
+        {
+            "nome": "Unidade de Saúde Familiar de Salus",
+            "localizacao": "Évora",
+            "image": "https://www.centrosdesaude.pt/wp-content/uploads/2018/06/11_CS_Evora.jpg",
+            "horario": "",
+            "telefone": "284 947 275",
+            "endereco": "R. de Dom Manuel da Conceição Santos, 7005-451 Évora"
+        },
+        {
+            "nome": "USF Eborae",
+            "localizacao": "Évora",
+            "image": "https://prospectiva.pt/wp-content/uploads/2021/01/ED_1597.jpg",
+            "horario": "08:00 - 20:00",
+            "telefone": "266 785 618",
+            "endereco": "Hospital do Patrocínio, R. Dr. Celestino David, 7005-389 Évora"
+        },
+        {
+            "nome": "Centro de Saúde da Lapa",
+            "localizacao": "Lisboa",
+            "image": "https://www.centrosdesaude.pt/wp-content/uploads/2017/11/Lapa.jpg",
+            "horario": "08:00 - 19:30",
+            "telefone": "21 393 1250",
+            "endereco": "R. de São Ciro 36, 1200-830 Lisboa"
+        },
+        {
+            "nome": "Centro de Saúde de Sete Rios",
+            "localizacao": "Lisboa",
+            "image": "https://www.centrosdesaude.pt/wp-content/uploads/2017/11/Sete-Rios.jpg",
+            "horario": "08:00 - 20:00",
+            "telefone": "21 042 3260",
+            "endereco": "R. de São Domingos de Benfica 20, 1500 Lisboa"
         }
     ]
 }
