@@ -72,7 +72,7 @@
         {
             "nome": "Farmácia Santos",
             "localizacao": "Beja",
-            "image": "https://www.montepio.org/wp-content/uploads/2017/03/farmacia_rodrigues_santos.jpg",
+            "image": "images/farmacia_santos.png",
             "horario": "08:30 - 20:00",
             "telefone": "284 389 331",
             "endereco": "R. de Santo Andre Loja 1/2, 7800-296 Beja"
@@ -88,7 +88,7 @@
         {
             "nome": "Farmácia Branco SMM",
             "localizacao": "Évora",
-            "image": "https://www.forumcovilha.pt/media/5319/screenshot_92.png",
+            "image": "images/farmacia_branco.jpg",
             "horario": "08:00 - 20:00",
             "telefone": "266 703 267",
             "endereco": "Av. de São Sebastião 30A, 7000-767 Évora"
@@ -96,7 +96,7 @@
         {
             "nome": "Farmácia João XXI",
             "localizacao": "Lisboa",
-            "image": "images/logo.png",
+            "image": "images/farmacia_joaoxxi.jpg",
             "horario": "08:00 - 23:59",
             "telefone": "266 706 482",
             "endereco": "Av. João XXI 13A, 1000-298 Lisboa"

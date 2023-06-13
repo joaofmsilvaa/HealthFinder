@@ -90,6 +90,7 @@ btnLink:active {
 .card {
   background-color: rgb(198, 218, 250);
   margin-bottom: 20px;
+  height: 250px;
 }
 
 .card-text {
@@ -102,6 +103,14 @@ btnLink:active {
 
 .main-project-section {
   margin-top: 10%;
+}
+
+.projetoConteudo{
+  font-size: 30px;
+}
+
+.jsonConteudo{
+  font-size: 30px;
 }
 
 .estig-div {
@@ -133,10 +142,13 @@ btnLink:active {
   text-align: center;
 }
 
-.footer{
+.footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
   color: white;
   background-color: rgba(55, 99, 166, 0.9);
-  width: 100%;
   text-align: center;
 }
 

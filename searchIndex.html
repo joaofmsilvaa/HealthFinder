@@ -1,3 +1,5 @@
+<!-- All rights reserved to João Silva https://github.com/JOao7640 -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -39,7 +41,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto text-end">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
+                <a class="nav-link" aria-current="page" href="index.html"
                   >Página inicial</a
                 >
               </li>
@@ -54,57 +56,52 @@
       </nav>
 
       <!-- Secção de pesquisa -->
-<section class="main-content-header pb-5 overflow-hidden text-center">
-  <div class="container">
-    <h1>Iniciar pesquisa</h1>
-    <form id="search-form">
-      <div class="mb-3">
-        <label for="searchInput" class="form-label">O que procura?</label>
-        <select class="form-select form-select-lg text-center" id="searchInput">
-          <option selected disabled>Selecione uma opção</option>
-          <option value="hospitais">Hospitais</option>
-          <option value="centros-de-saude">Centros de Saúde</option>
-          <option value="farmacias">Farmácias</option>
-        </select>
+      <section class="main-content-header pb-5 overflow-hidden text-center">
+        <div class="container">
+          <h1>Iniciar pesquisa</h1>
+          <form id="search-form">
+            <div class="mb-3">
+              <label for="searchInput" class="form-label">O que procura?</label>
+              <select
+                class="form-select form-select-lg text-center"
+                id="searchInput"
+              >
+                <option selected disabled>Selecione uma opção</option>
+                <option value="hospitais">Hospitais</option>
+                <option value="centros-de-saude">Centros de Saúde</option>
+                <option value="farmacias">Farmácias</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="locationInput" class="form-label">Localização</label>
+              <input
+                type="text"
+                class="form-control form-control-lg text-center"
+                id="locationInput"
+                placeholder="Ex: Beja, Évora, Lisboa"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary" href="#results">
+              PESQUISAR
+            </button>
+          </form>
+        </div>
+      </section>
+      <!-- Secção de pesquisa -->
+
+      <!-- Secção de resultados -->
+
+      <div
+        class="results container-xl border flex-column align-items-center"
+        id="results"
+      >
+        <div class="card-container row justify-content-center"></div>
       </div>
-      <div class="mb-3">
-        <label for="locationInput" class="form-label">Localização</label>
-        <input
-          type="text"
-          class="form-control form-control-lg text-center"
-          id="locationInput"
-          placeholder="Ex: Beja, Évora, Lisboa"
-        />
-      </div>
-      <button type="submit" class="btn btn-primary" href="#results">
-        PESQUISAR
-      </button>
-    </form>
-  </div>
-</section>
-<!-- Secção de pesquisa -->
-
-<!-- Secção de resultados -->
-
-<div class="results container-xl border flex-column align-items-center" id="results">
-    <div class="card-container row justify-content-center"></div>
-
-    <!-- Hospital Details Section -->
-    <div class="place-details justify-content-center align-items-center" id="placeDetails" style="display: none">
-      <img src="" alt="place image" id="placeImage" class="card-img-top" />
-      <h2 id="placeName"></h2>
-      <p id="placeLocation"></p>
-      <p id="placeHorario"></p>
-      <p id="placeTelefone"></p>
-      <p id="placeEndereco"></p>
+      <!-- Secção de resultados -->
     </div>
-     <!-- Hospital Details Section -->
-
-  </div>
-<!-- Secção de resultados -->
 
     <!-- Footer -->
-    <section class="footer">
+    <section class="footer container-fluid w-100">
       <footer>
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
           <li class="nav-item">
@@ -127,7 +124,6 @@
     </section>
 
     <!-- Footer -->
-
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="searchScript.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>

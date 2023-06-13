@@ -24,7 +24,7 @@
 <br />
 <div align="center">
   <a href="[https://github.com/JOao7640/BodyBoost-Android-App](https://github.com/JOao7640/HealthFinder)">
-    <img src="images/logoSimples.png" alt="Logo" width="180">
+    <img src="images/logo_simples.png" alt="Logo" width="180">
   </a>
 
 <h3 align="center">HealthFinder</h3>
