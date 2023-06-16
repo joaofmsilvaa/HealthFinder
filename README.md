@@ -74,6 +74,8 @@ The purpose of this project is to develop a website that through an api or data 
 <br>
 * Bootstrap
 <br>
+* JSON
+<br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
