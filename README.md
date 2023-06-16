@@ -1,5 +1,7 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
 <a name="readme-top"></a>
+
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -7,8 +9,6 @@
 *** Don't forget to give the project a star!
 *** Thanks again! Now go create something AMAZING! :D
 -->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -18,7 +18,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -37,7 +36,6 @@
   </p>
 </div>
 
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -53,9 +51,8 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
  <img src="images/logo.png" alt="Logo" width="160">
@@ -65,8 +62,6 @@ The purpose of this project is to develop a website that through an api or data 
 <br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
@@ -84,9 +79,8 @@ The purpose of this project is to develop a website that through an api or data 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
 1. O utilizador pode procurar hospitais em uma determinada cidade
@@ -95,24 +89,25 @@ The purpose of this project is to develop a website that through an api or data 
 <br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ROADMAP -->
+
 ## Roadmap
 
-- [X] Programar a secção principal
-    - [X] Estilizar a secção principal
-- [ ] Programar a secção de "recomendações"
-    - [ ] Estilizar a secção de recomendações
-- [ ] Programar a secção de "Sobre nós"
-    - [ ] Estilizar a secção do Sobre nós
-- [ ] Programar a secção de "Sobre a API"
-    - [ ] Estilizar a secção do "Sobre a API"
-  
+- [x] Programar a secção principal
+  - [x] Estilizar a secção principal
+- [x] Programar a secção de "recomendações"
+  - [x] Estilizar a secção de recomendações
+- [x] Programar a secção de "Sobre nós"
+  - [x] Estilizar a secção do Sobre nós
+- [x] Programar a secção de "Sobre o JSON"
+  - [x] Estilizar a secção do "Sobre a JSON"
+- [x] Programar a secção de "Pesquisa"
+  - [x] Estilizar a secção de "Pesquisa"
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- CREDITS -->
+
 ## CREDITS
 
 João Silva - <a href="https://github.com/JOao7640">Github</a>

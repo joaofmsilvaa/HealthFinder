@@ -2,6 +2,10 @@
   background-color: rgba(55, 99, 166, 0.9);
 }
 
+.navLogo{
+  width: 60%;
+}
+
 .navbar-brand {
   width: 40%;
   height: 30%;
@@ -39,40 +43,29 @@
   text-align: left;
 }
 
-.btn {
+
+.btnLink{
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 20px;
   background-color: #3763a6;
   color: whitesmoke;
   width: 250px;
   height: 60px;
   font-size: 25px;
-  transition: 0.35s;
+  transition: 0.15s;
 }
 
-.btnLink{
-  color: white;
-  text-decoration: none;
-}
-
-/* visited link */
 btnLink:visited {
   color: white;
 }
 
-/* mouse over link */
 btnLink:hover {
   color: white;
 }
 
-/* selected link */
 btnLink:active {
   color: white;
-}
-
-.btn:hover {
-  background-color: white;
-  color: #3763a6;
-  border-color: #3763a6;
-  transition: 0.35s;
 }
 
 .paragraph-div {
@@ -85,6 +78,10 @@ btnLink:active {
 
 .recomendations-logo {
   width: 50px;
+}
+
+.reviewerImg{
+  width: 20%;
 }
 
 .card {
@@ -150,6 +147,10 @@ btnLink:active {
   color: white;
   background-color: rgba(55, 99, 166, 0.9);
   text-align: center;
+}
+
+.footerLogo{
+  width: 30%;
 }
 
 @media screen and (max-width: 991px) {

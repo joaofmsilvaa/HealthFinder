@@ -2,6 +2,10 @@
   background-color: rgba(55, 99, 166, 0.9);
 }
 
+.navLogo{
+  width: 60%;
+}
+
 .navbar-brand {
   width: 40%;
   height: 30%;
@@ -127,6 +131,10 @@
   color: white;
   background-color: rgba(55, 99, 166, 0.9);
   text-align: center;
+}
+
+.footerLogo{
+  width:"30%";
 }
 
 @media screen and (max-width: 991px) {
